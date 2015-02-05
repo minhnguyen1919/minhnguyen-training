@@ -1,0 +1,13 @@
+#Vagrant files
+######################
+node_modules/**
+__MACOSX/**
+cookbooks/**
+
+Gruntfile.js
+package.json
+
+#temp files
+######################
+*.*~
+*.log
