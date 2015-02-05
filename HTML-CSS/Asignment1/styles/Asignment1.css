@@ -1,0 +1,185 @@
+*
+{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+/* remember to define focus styles! */
+:focus
+{
+    outline: 0;
+}
+body
+{
+    line-height: 1;
+
+    color: black;
+    background: white;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+    border-spacing: 0;
+    border-collapse: separate;
+}
+caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+}
+blockquote,
+q
+{
+    quotes: '' '';
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/**************************NAVBAR*******************/
+#navbar
+{
+    width: 100%;
+    /*background-color: #FFFFFF;*/
+    height: 100px;
+}
+
+.container
+{
+    overflow: hidden;
+
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #ededed;
+    /*background-color: #FF00FF;*/
+}
+
+.logo
+{
+    float: left;
+
+    width: 23%;
+}
+
+.logo h1
+{
+    display: table-cell;
+
+    height: 100px;
+
+    vertical-align: middle;
+}
+
+.logo h1 a
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #000;
+}
+
+.logo h1 a
+{
+    font-size: 35px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    padding-left: 45px;
+
+    background: url('../images/logo.png') no-repeat center left;
+}
+
+.main-nav
+{
+    float: right;
+
+    width: 72%;
+    /*background-color: #999999;*/
+}
+
+.main-nav .navbar
+{
+    display: table-cell;
+
+    width: 71%;
+    height: 100px;
+    padding-left: 10px;
+
+    vertical-align: middle;
+}
+
+.main-nav .navbar li
+{
+    display: inline;
+}
+
+.main-nav .navbar li a
+{
+    font-size: 14px;
+
+    padding: 20px 12px 17px 12px;
+
+    transition: color .5s;
+    text-transform: uppercase;
+
+    color: #515151;
+}
+
+.main-nav .navbar li a:hover
+{
+    color: #91ca34;
+}
+
+.main-nav .social
+{
+    display: table-cell;
+
+    width: 21%;
+    height: 100px;
+
+    vertical-align: middle;
+}
+
+.main-nav .social a
+{
+    font-size: 18px;
+
+    padding: 7px;
+
+    transition: color .5s;
+
+    color: #303030;
+}
+
+.main-nav .social a:hover
+{
+    color: #91ca34;
+}

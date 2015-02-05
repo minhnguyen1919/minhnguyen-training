@@ -1,0 +1,164 @@
+/************************RESET CSS****************************/
+*
+{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+/* remember to define focus styles! */
+:focus
+{
+    outline: 0;
+}
+body
+{
+    line-height: 1;
+
+    color: black;
+    background: white;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+    border-spacing: 0;
+    border-collapse: separate;
+}
+caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+}
+blockquote,
+q
+{
+    quotes: '' '';
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/**************************NAVBAR*******************/
+
+#warpper
+{
+    width: 100%;
+    height: 234px;
+
+    background-color: #fff;
+}
+
+.container
+{
+    width: 1618px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.box
+{
+    float: left;
+
+    width: 404.5px;
+    height: 234px;
+
+    background-color: #f4f4f4;
+}
+
+.odd
+{
+    background-color: #efefef;
+}
+
+.latest-blog
+{
+    position: relative;
+
+    background-color: #89c700;
+}
+
+.latest-blog h1
+{
+    font-size: 15px;
+    font-weight: 100;
+
+    position: absolute;
+    top: 87px;
+    left: 134px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.latest-blog h1 span
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    display: block;
+
+    margin-top: 6px;
+
+    letter-spacing: 5px;
+}
+
+.box-inside
+{
+    margin: 46px 40px 25px 42px;
+}
+
+.box-inside span
+{
+    font-size: 13px;
+
+    padding: 3px 10px;
+
+    color: #fff;
+    background-color: #89c700;
+}
+
+.box-inside h1
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 12px 0 12px 0;
+
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.box-inside p
+{
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #848484;
+}

@@ -1,0 +1,146 @@
+/************************RESET CSS****************************/
+*
+{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+/* remember to define focus styles! */
+:focus
+{
+    outline: 0;
+}
+body
+{
+    line-height: 1;
+
+    color: black;
+    background: white;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+    border-spacing: 0;
+    border-collapse: separate;
+}
+caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+}
+blockquote,
+q
+{
+    quotes: '' '';
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#wrapper
+{
+    width: 100%;
+
+    background-color: #fff;
+}
+
+
+/***************************************/
+
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.col-md-3
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 25%;
+    height: 280px;
+    padding: 0 15px;
+}
+
+.content-box
+{
+    height: 220px;
+    margin: 15px 0;
+    padding: 15px;
+
+    text-align: center;
+
+    border: 1px solid #e5e5e5;
+    background-color: #f6f6f6;
+}
+
+
+.content-box .icon
+{
+    line-height: 2.2em;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+
+    border: 1px solid #0199da;
+    border-radius: 5px;
+}
+
+.content-box .icon i
+{
+    font-size: 22px;
+
+    color: #0199da;
+}
+
+.content-box h1
+{
+    font-size: 19px;
+    font-weight: 100;
+
+    margin: 29px 0 17px 0;
+
+    color: #32abdf;
+}
+
+.content-box p
+{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.75em;
+
+    color: #6f6f6f;
+}
