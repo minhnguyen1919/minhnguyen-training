@@ -1,73 +1,52 @@
 
-# Training project (HTML-CSS & DOCPAD & JAVASCRIPT)
+# Training project (HTML-CSS & DOCPAD)
 
-## Setup
+##Project structure
 
-Install:
+####1. .vagrant(/vagrant)
 
-  1. Installing Virtualbox:
-  ``` 
-  $ sudo apt-get install virtualbox
-  ```
-  
-  2. Installing Vagrant:
-  ```
-  $ sudo apt-get install vagrant
-  ```
+Contains scripts & config file for vagrant
 
-  3. Getting vagrant  machine up:
-  ```
-  $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
-  ```
+####2. HTML-CSS(/HTML-CSS)
 
-  4. Configure Project:
-  ```
-  $ mkdir vagrant_project
-  $ cd vagrant_project
-  $ vagrant init
-  ```
+Contains html/css/images of practice
 
-  5. Edit the Vagrantfile in this directory and replace
-  ```
-  config.vm.box = "precise32"
-  ```
+##Practice
 
+1. Asignment1
 
-Start Server to run DOCPAD:
-  ```
-  vagrant ssh
-  cd /docpad
-  docpad run
-  ```
+  * Blessing navigator
 
-Start Server to run HTML-CSS:
-  ```
-  vagrant ssh
-  cd /html-css
-  python -m SimpleHTTPServer 4000
-  ```
+  * Added by Sang Dong
 
-## NOTES
+2. Asignment2
+  * Latest blog
 
-  1. HTML-CSS folder:
-    Contain source runing with port: 4000
+  * Added by Sang Dong
 
-  2. DOCPAD folder:
-    Contain SASS, Jade language
-    Docpad will render from SASS to CSS and from Jade to HTML
+3. Asignment3
+  * Latest sermons section
 
-  3.JAVASCRIPT folder:
-    Learning JavaScript
-## MY PRACTICE
-  1. Run
-    ```
-    cd /DOCPAD/practices/greensbury-fix
-    docpad run
-    ```
-   
-  2. Dir: DOCPAD/practices/greensbury-fix
-  3. File name:
-    index.html
-    contact.html
-    list-products.html
-    product-details.
+  * Added by Sang Dong
+
+4. Asignment4
+  * Great features block
+
+  * Added by Sang Dong 
+
+5. Optional1
+
+  * INSPINIA
+
+  * Added by Minh Nguyen
+
+7. Optional3
+  * Artificial reason
+
+  * Added by Minh Nguyen
+
+8. Optional4
+  * Unify
+
+  * Added by Minh Nguyen
+
