@@ -11,7 +11,7 @@ Contains scripts & config file for vagrant
 
 Contains html/css/images of practice
 
-##Practice
+##Practices
 
 1. Asignment1
 
@@ -39,6 +39,12 @@ Contains html/css/images of practice
   * INSPINIA
 
   * Added by Minh Nguyen
+
+6. Optional2
+
+  * REEN
+
+  * Added by Minh Nguyen 
 
 7. Optional3
   * Artificial reason
