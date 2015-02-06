@@ -7,6 +7,14 @@ cookbooks/**
 Gruntfile.js
 package.json
 
+#Docpad files
+######################
+docpad/out/
+docpad/node_modules/
+docpad/docpad.coffee
+docpad/package.json
+
+
 #temp files
 ######################
 *.*~
