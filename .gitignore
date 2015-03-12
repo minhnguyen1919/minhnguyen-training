@@ -13,7 +13,7 @@ docpad/out/
 docpad/node_modules/
 docpad/docpad.coffee
 docpad/package.json
-
+**/test/
 
 #temp files
 ######################
